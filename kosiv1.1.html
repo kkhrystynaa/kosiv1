@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма для додавання викладача</title>
+</head>
+<body>
+<form>
+    <h1>Форма для додавання викладача:</h1>
+    <label for="fname">1. Повне ім'я:</label> <br>
+    <input type="text" id="fname" name="fname" required> <br> <br>
+
+    <label for="gender">2. Стать:</label><br>
+    <input type="radio" name="gender" value="male" >Чоловіча <br>
+    <input type="radio" name="gender" value="female">Жіноча <br>
+    <input type="radio" name="gender" value="other">Інше <br><br>
+
+    <label for="fbirthDate">3. Дата народження:</label><br>
+    <input type="date" id="fbirthDate" name="fbirthDate" required><br><br>
+
+    <label for="femail">4. Пошта:</label><br>
+    <input type="femail" id="femail" name="femail" required><br><br>
+
+    <label for="fphone">5. Телефон:</label><br>
+    <input type="tel" id="fphone" name="fphone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+
+    <label for="fcolor">6. Колір фону:</label><br>
+    <input type="text" id="fcolor" name="fcolor"> <br><br>
+
+    <label for="fcountry">7. Країна:</label><br>
+    <input type="text" id="fcountry" name="fcountry"> <br><br>
+
+    <label for="fcity">8. Місто:</label><br>
+    <input type="text" id="fcity" name="fcity"> <br><br>
+
+    <label for="fcomments">9. Коментар:</label><br>
+    <textarea id="fcomments" id="fcomments" name="fcomments"></textarea><br><br>
+
+    <button type="submit">Додати викладача</button>
+</form>
+
+</body>
+</html>
